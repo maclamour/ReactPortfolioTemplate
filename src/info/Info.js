@@ -41,7 +41,7 @@ export const info = {
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Software Engineer for Hire!"
         },
         {
             emoji: <a href="mailto:maclamour@gmail.com">📧</a>,
@@ -49,16 +49,6 @@ export const info = {
         }
     ],
     socials: [
-        // {
-        //     link: "https://facebook.com",
-        //     icon: 'fa fa-facebook',
-        //     label: 'facebook'
-        // },
-        // {
-        //     link: "https://instagram.com",
-        //     icon: 'fa fa-instagram',
-        //     label: 'instagram'
-        // },
         {
             link: "https://github.com/maclamour",
             icon: "fa fa-github",
@@ -69,11 +59,7 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-        // {
-        //     link: "https://twitter.com",
-        //     icon: "fa fa-twitter",
-        //     label: 'twitter'
-        // }
+       
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
