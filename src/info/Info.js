@@ -44,63 +44,71 @@ export const info = {
             text: "Systems Engineer at Google"
         },
         {
-            emoji: "📧",
-            text: "johnsmith@gmail.com"
+            emoji: <a href="mailto:maclamour@gmail.com">📧</a>,
+            text: <a href="mailto:maclamour@gmail.com">maclamour@gmail</a>
         }
     ],
     socials: [
+        // {
+        //     link: "https://facebook.com",
+        //     icon: 'fa fa-facebook',
+        //     label: 'facebook'
+        // },
+        // {
+        //     link: "https://instagram.com",
+        //     icon: 'fa fa-instagram',
+        //     label: 'instagram'
+        // },
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
-        {
-            link: "https://github.com",
+            link: "https://github.com/maclamour",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/mackenzie-lamour/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
-        }
+        // {
+        //     link: "https://twitter.com",
+        //     icon: "fa fa-twitter",
+        //     label: 'twitter'
+        // }
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Mackenzie. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['Javascript', 'React', 'Python', 'Node.js' ,'Git', 'Github', 'Bootstrap', 'Html5', 'CSS', 'Figma', 'MongoDB', 'Django','PostgreSQL','Express.js','jQuery'],
+            softSkills: ['Business Skills ','Customer Service ', 'Customer Support','Project Management ','Computer Science','Software Development','Software Development Life Cycle','Development Strategy','Coding Standards','Code Review ','Programming Language ','Digital  Communication ','Team Leadership','Collaboration']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
+            label: 'Relaxing With My Wife and Pups',
+            emoji: '😎'
+        },
+        {
+            label: 'Learning New Things',
             emoji: '📖'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'Staying Active',
+            emoji: '🏋🏾'
         },
         {
-            label: 'movies',
+            label: 'Movies',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
+            label: 'Cooking',
             emoji: '🌶'
+        },
+        {
+            label: '',
+            emoji: ''
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
