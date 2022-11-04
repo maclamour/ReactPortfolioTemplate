@@ -5,6 +5,7 @@ import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 
 
+
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
@@ -46,6 +47,10 @@ export const info = {
         {
             emoji: <a href="mailto:maclamour@gmail.com">📧</a>,
             text: <a href="mailto:maclamour@gmail.com">maclamour@gmail</a>
+        },
+        {
+            emoji: "📝",
+            text: <a href="/public/Mackenzie-Resume.pdf" download rel="noopener noreferrer" target= "_blank">Resume</a>
         }
     ],
     socials: [

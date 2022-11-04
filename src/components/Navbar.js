@@ -26,7 +26,14 @@ const links = [
         name: 'Portfolio',
         to: '/portfolio',
         active: 'portfolio'
-    }
+    },
+    {
+        name: 'Resume',
+        to: <a href="/public/Mackenzie-Resume.pdf" download rel="noopener noreferrer" target= "_blank">Resume</a>,
+        active: 'resume'
+    },
+
+    
 ]
 
 export default function Navbar({darkMode, handleClick}) {
