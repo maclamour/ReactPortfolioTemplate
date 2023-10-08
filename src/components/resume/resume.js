@@ -1,5 +1,5 @@
 import React from 'react';
-import Style from './Resume.module.scss'; // You can define the styling for Resume.module.scss
+// import Style from './Resume.module.scss'; // You can define the styling for Resume.module.scss
 import Terminal from './Terminal';
 import { Box } from '@mui/material';
 
