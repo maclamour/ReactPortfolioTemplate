@@ -29,12 +29,13 @@ const links = [
     },
     {
         name: 'Resume',
-        to: 'https://drive.google.com/file/d/16LndCVBEPE2fdesz_QUwV7ADlCdATij2/view?usp=drive_link',
+        to: 'https://drive.google.com/uc?id=16LndCVBEPE2fdesz_QUwV7ADlCdATij2&export=download',
         download: 'Mackenzie-Resume.pdf',
         rel: 'noopener noreferrer',
         target: '_blank',
         active: 'resume'
-      },
+      }
+      
       
 
     
