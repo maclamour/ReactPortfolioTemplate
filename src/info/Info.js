@@ -1,6 +1,5 @@
 import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 
@@ -69,7 +68,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Mackenzie. I am a Full Stack Engineer who formerly worked as an intensive care unit nurse. I've worked as a community relations manager, a real estate agent, and an Software Engineer for a full-stack application while also serving as a personal chef in Denver, Colorado. My experience working in healthcare has shown me that shoddy software implementation and design can have a negative impact on both routine operations and patient well-being. My exposure to these situations has opened my eyes to the significance of user-centric design and stoked my insatiable appetite for learning more about the inner workings of application development. Can't wait to connect!",
+    bio: "Hello, I'm Mackenzie, a former ICU nurse turned Full Stack Engineer. I've worn many hats, from community relations manager and real estate agent to a Software Engineer working on full-stack applications. I've even dabbled as a personal chef in Denver, Colorado. My time in healthcare has highlighted the importance of well-designed software, as I've seen firsthand how it can impact operations and patient well-being. These experiences have fueled my passion for user-centric design and ignited my eagerness to delve deeper into application development. Excited to connect!",
     skills:
         {
             proficientWith: ['Javascript', 'React', 'Python', 'Node.js' ,'Git', 'Github', 'Bootstrap', 'Html5', 'CSS', 'Figma', 'MongoDB', 'Django','PostgreSQL','Express.js','jQuery'],
@@ -113,18 +112,12 @@ export const info = {
         },
         {
             title: "Project 2",
-            live: "https://travelhub3.herokuapp.com/login",
-            source: "https://github.com/maclamour/Project-2-TravelHub",
-            image: mock2
-        },
-        {
-            title: "Project 3",
             live: "https://co-healthy-homemade.netlify.app/home",
             source: "https://github.com/tjphillips08/co-healthy-homemade-frontend",
             image: mock3
         },
         {
-            title: "Project 4",
+            title: "Project 3",
             live: "https://sport-spot1-211d25317224.herokuapp.com/",
             source: "https://github.com/maclamour/Sport-Spot",
             image: mock4
