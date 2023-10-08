@@ -28,15 +28,10 @@ const links = [
         active: 'portfolio'
     },
     {
-        name: 'Resume',
-        to: 'https://drive.google.com/uc?export=download&id=16LndCVBEPE2fdesz_QUwV7ADlCdATij2',
-        download: 'Mackenzie-Resume.pdf',
-        rel: 'noopener noreferrer',
-        target: '_blank',
+        name: 'Portfolio',
+        to: '/resume',
         active: 'resume'
-      },
-      
-      
+    },
       
 
     

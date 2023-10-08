@@ -44,8 +44,8 @@ export const info = {
             text: "Software Engineer for Hire!"
         },
         {
-            emoji: <a href="mailto:maclamour@gmail.com">📧</a>,
-            text: <a href="mailto:maclamour@gmail.com">maclamour@gmail</a>
+            emoji: <a href="mailto:maclamour@icloud.com">📧</a>,
+            text: <a href="mailto:maclamour@icloud.com">maclamour@icloud</a>
         },
         {
             emoji: "📝",
@@ -80,7 +80,7 @@ export const info = {
     bio: "Hello, I'm Mackenzie, a former ICU nurse turned Full Stack Engineer. I've worn many hats, from community relations manager and real estate agent to a Software Engineer working on full-stack applications. I've even dabbled as a personal chef in Denver, Colorado. My time in healthcare has highlighted the importance of well-designed software, as I've seen firsthand how it can impact operations and patient well-being. These experiences have fueled my passion for user-centric design and ignited my eagerness to delve deeper into application development. Excited to connect!",
     skills:
         {
-            proficientWith: ['Javascript', 'React', 'Python', 'Node.js' ,'Git', 'Github', 'Bootstrap', 'Html5', 'CSS', 'Figma', 'MongoDB', 'Django','PostgreSQL','Express.js','jQuery'],
+            proficientWith: ['Javascript', 'React', 'Python','Java', 'Node.js' ,'Git', 'Github', 'Bootstrap', 'Html5', 'CSS', 'Figma', 'MongoDB', 'Django','PostgreSQL','Express.js','jQuery'],
             softSkills: ['Business Skills ','Customer Service ', 'Customer Support','Project Management ','Computer Science','Software Development','Software Development Life Cycle','Development Strategy','Coding Standards','Code Review ','Programming Language ','Digital  Communication ','Team Leadership','Collaboration']
         }
     ,
