@@ -49,8 +49,16 @@ export const info = {
         },
         {
             emoji: "📝",
-            text: <a href="/public/Mackenzie-Resume.pdf" download rel="noopener noreferrer" target= "_blank">Resume</a>
-        }
+            text: (
+              <a
+                href="https://drive.google.com/uc?export=download&id=16LndCVBEPE2fdesz_QUwV7ADlCdATij2"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Resume
+              </a>
+            )
+          }
     ],
     socials: [
         {
@@ -63,6 +71,7 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
+
        
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
