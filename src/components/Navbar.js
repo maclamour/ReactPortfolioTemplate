@@ -28,7 +28,7 @@ const links = [
         active: 'portfolio'
     },
     {
-        name: 'Portfolio',
+        name: 'Resume',
         to: '/resume',
         active: 'resume'
     },

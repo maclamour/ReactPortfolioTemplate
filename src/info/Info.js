@@ -55,7 +55,7 @@ export const info = {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Resume
+                Download Resume Here!
               </a>
             )
           }
