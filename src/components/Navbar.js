@@ -29,9 +29,13 @@ const links = [
     },
     {
         name: 'Resume',
-        to: <a href="/public/Mackenzie-Resume.pdf" download rel="noopener noreferrer" target= "_blank">Resume</a>,
+        to: '/public/Mackenzie-Resume.pdf',
+        download: 'Mackenzie-Resume.pdf',
+        rel: 'noopener noreferrer',
+        target: '_blank',
         active: 'resume'
-    },
+      }
+      
 
     
 ]
