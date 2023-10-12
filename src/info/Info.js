@@ -51,7 +51,7 @@ export const info = {
             emoji: "📝",
             text: (
               <a
-                href="https://drive.google.com/uc?export=download&id=1fTghZF6hsGwMVrRIHEkFJsU-A3BFXr5Q"
+                href="https://drive.google.com/uc?export=download&id=1Dva436ZbsPnB5rVcnDOZhhQO1dzTAyRM"
                 rel="noopener noreferrer"
                 target="_blank"
               >
