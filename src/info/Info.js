@@ -51,7 +51,7 @@ export const info = {
             emoji: "📝",
             text: (
               <a
-                href="https://drive.google.com/uc?export=download&id=16LndCVBEPE2fdesz_QUwV7ADlCdATij2"
+                href="https://drive.google.com/uc?export=download&id=1fTghZF6hsGwMVrRIHEkFJsU-A3BFXr5Q"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -114,19 +114,19 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
+            title: "Triva Game",
             live: "https://maclamour.github.io/project1-Trivia/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/maclamour/project1-Trivia", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
+            title: "Colorado Healthy Homemade",
             live: "https://co-healthy-homemade.netlify.app/home",
             source: "https://github.com/tjphillips08/co-healthy-homemade-frontend",
             image: mock3
         },
         {
-            title: "Project 3",
+            title: "Sport Spot",
             live: "https://sport-spot1-211d25317224.herokuapp.com/",
             source: "https://github.com/maclamour/Sport-Spot",
             image: mock4

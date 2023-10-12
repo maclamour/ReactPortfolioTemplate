@@ -4,7 +4,8 @@ export default function Resume() {
   useEffect(() => {
     // Use the actual download link on page load
     window.location.href =
-      'https://drive.google.com/uc?export=download&id=16LndCVBEPE2fdesz_QUwV7ADlCdATij2';
+    'https://drive.google.com/uc?export=download&id=1fTghZF6hsGwMVrRIHEkFJsU-A3BFXr5Q';
+
 
     // Redirect back to the home page after a delay (adjust the delay as needed)
     setTimeout(() => {
