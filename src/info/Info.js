@@ -147,24 +147,29 @@ export const info = {
       live: "https://recipe-app-jkx7.onrender.com/",
       source: "https://github.com/maclamour/Recipe-App-Frontend",
       image: mock2,
+      techStack: ["Typescript","React", "Node.js", "Postgres"]
     },
     {
       title: "Trivia Game",
       live: "https://maclamour.github.io/project1-Trivia/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: "https://github.com/maclamour/project1-Trivia", // this should be a link to the **repository** of the project, where the code is hosted.
       image: mock1,
+      techStack: [ "JavaScript","HTML", "CSS",]
     },
     {
       title: "Colorado Healthy Homemade",
       live: "https://co-healthy-homemade.netlify.app/home",
       source: "https://github.com/tjphillips08/co-healthy-homemade-frontend",
       image: mock3,
+      techStack: ["JavaScript" ,"React", "Node.js", "MongoDB"]
+      
     },
     {
       title: "Sport Spot",
       live: "https://sport-spot1-211d25317224.herokuapp.com/",
       source: "https://github.com/maclamour/Sport-Spot",
       image: mock4,
+      techStack:["Python", "Django", "Postgres","Bootstrap"]
     },
   ],
 };
