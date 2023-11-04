@@ -24,7 +24,7 @@ export const info = {
   firstName: "Mackenzie",
   lastName: "Lamour",
   initials: "ML", // the example uses first and last, but feel free to use three or more if you like.
-  position: "Software Engineer",
+  position: "A Software Engineer",
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
@@ -74,7 +74,7 @@ export const info = {
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
-  bio: "Hello, I'm Mackenzie, a former ICU nurse turned Full Stack Engineer. I've worn many hats, from community relations manager and real estate agent to a Software Engineer working on full-stack applications. I've even dabbled as a personal chef in Denver, Colorado. My time in healthcare has highlighted the importance of well-designed software, as I've seen firsthand how it can impact operations and patient well-being. These experiences have fueled my passion for user-centric design and ignited my eagerness to delve deeper into application development. Excited to connect!",
+  bio: "Hello, I'm Mackenzie, a former ICU nurse turned Software Engineer. I've worn many hats, from community relations manager and real estate agent to a Software Engineer working on full-stack applications. I've even dabbled as a personal chef in Denver, Colorado. My time in healthcare has highlighted the importance of well-designed software, as I've seen firsthand how it can impact operations and patient well-being. These experiences have fueled my passion for user-centric design and ignited my eagerness to delve deeper into application development. Excited to connect!",
   skills: {
     proficientWith: [
       "Javascript",
