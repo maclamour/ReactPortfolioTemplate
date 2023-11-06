@@ -1,31 +1,55 @@
-import React from 'react';
+import React from "react";
 import IconLink from "./IconLink";
-import {Box} from "@mui/material";
+import { Box } from "@mui/material";
 
 function PortfolioBlock(props) {
-   const {image, live, source, title, techStack} = props;
-   return (
-      <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
-         <Box component={'img'} src={image} alt={'mockup'}/>
-         <h1 style={{fontSize: '2rem'}}>{title}</h1>
-         <Box display={'flex'} flexDirection={'row'} gap={'0.5rem'} alignItems={'center'}>
-            {techStack && techStack.map((tech, index) => (
-               <Box key={index} p={1} borderRadius={'5px'} bgcolor={'#f0f0f0'} boxShadow={1}>
-                  {tech}
-               </Box>
-            ))}
-         </Box>
-         <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}
-              alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
-            <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
-               <IconLink link={live} title={'Live Demo'} icon={'fa fa-safari'}/>
+  const { image, live, source, title, techStack } = props;
+  return (
+    <Box
+      display={"flex"}
+      flexDirection={"column"}
+      justifyContent={"center"}
+      alignItems={"center"}
+    >
+      <Box component={"img"} src={image} alt={"mockup"} />
+      <h1 style={{ fontSize: "2rem" }}>{title}</h1>
+      <Box
+        display={"flex"}
+        flexDirection={"row"}
+        gap={"0.5rem"}
+        alignItems={"center"}
+      >
+        {techStack &&
+          techStack.map((tech, index) => (
+            <Box
+              key={index}
+              p={1}
+              borderRadius={"5px"}
+              bgcolor={"#f0f0f0"}
+              boxShadow={1}
+            >
+              {tech}
             </Box>
-            <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
-               <IconLink link={source} title={'Source Code'} icon={'fa fa-code'}/>
-            </Box>
-         </Box>
+          ))}
       </Box>
-   );
+      <Box
+        className={"portfolio"}
+        display={"flex"}
+        flexDirection={"column"}
+        gap={"0.5rem"}
+        alignItems={"center"}
+        fontSize={"1.5rem"}
+        py={"2rem"}
+      >
+        <Box p={1} border={"2px solid black"} borderRadius={"25px"}>
+          <IconLink link={live} title={"Live Demo"} icon={"fa fa-safari"} />
+        </Box>
+        <Box p={1} border={"2px solid black"} borderRadius={"25px"}>
+          <IconLink link={source} title={"Source Code"} icon={"fa fa-code"} />
+        </Box>
+      </Box>
+    </Box>
+  );
 }
 
 export default PortfolioBlock;
